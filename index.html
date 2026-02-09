@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>My hobby: Soccer </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- header is the main title of the website-->
-<header>
+<header id="site-header">
+
     <h1> Soccer </h1>
     <p> This website is about my favorite hobby, soccer, </p>
 </header>
 
-<main>
+<main class="container">
     <section>
-        <h2> Soccer is my favorite hobby</h2>
+        <h2 class="section-title">Soccer is my favorite hobby</h2>
         <p> I have played soccer since I was 5 years old, and now I am 21. Soccer has always been my thing </p>
         <p> I love playing with all of my friends, I am a student athlete, it's super fun and exiting, and it's a good way to stay healthy and active</p>
     </section>
 
     <section>
-        <h2> My typical soccer practice </h2>
+        <h2 class="section-title">My typical soccer practice</h2>
         
         <!-- list of what I do on a practice-->
          <ol>
@@ -35,6 +37,19 @@
          </ol>
     </section>
 
+    <section class="flex-container" id="training-layout">
+        <div class="box">
+          <h2 class="section-title">Training</h2>
+          <p>I train with my team several times a week.</p>
+        </div>
+      
+        <div class="box">
+          <h2 class="section-title">Matches</h2>
+          <p>We usually play matches on weekends during the season.</p>
+        </div>
+      </section>
+      
+
     <!-- picture on the page-->
     <img src="images/soccerball.jpg" alt="A soccer ball" width="300">
 
@@ -44,7 +59,6 @@
  <footer>
     <p> More about soccer on the next page</p>
     <a href="page2.html"> Read more on page 2</a>
-    <link rel="stylesheet" href="style.css">
  </footer>
 </body>
 </html>
