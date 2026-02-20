@@ -29,13 +29,15 @@ body {
     font-size: 16px;
   }
 
-  .container {
-    width: 94%;
-  }
+  /* Removed custom container width, handled by Bootstrap */
 
-  .flex-container {
+
+  /* Removed because layout is now handled by Bootstrap grid */
+/*
+.flex-container {
     flex-direction: column;
-  }
+}
+*/
 
   img {
     max-width: 100%;
